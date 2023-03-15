@@ -15,5 +15,5 @@ dependencyResolutionManagement {
 }
 rootProject.name = "Mapper"
 include ':annotation'
-include ':symbol_processor'
 include ':ksp'
+include ':app'
