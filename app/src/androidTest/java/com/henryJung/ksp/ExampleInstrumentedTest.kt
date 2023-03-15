@@ -1,4 +1,4 @@
-package com.devpub.ksp
+package com.henryJung.ksp
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

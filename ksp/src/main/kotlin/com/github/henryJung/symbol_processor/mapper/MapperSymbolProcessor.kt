@@ -1,8 +1,8 @@
-package com.devpub.symbol_processor.mapper
+package com.github.henryJung.symbol_processor.mapper
 
-import com.devpub.annotation.Mapper
-import com.devpub.symbol_processor.getName
-import com.devpub.symbol_processor.isDataClass
+import com.github.henryJung.annotation.Mapper
+import com.github.henryJung.symbol_processor.getName
+import com.github.henryJung.symbol_processor.isDataClass
 import com.google.devtools.ksp.processing.CodeGenerator
 import com.google.devtools.ksp.processing.KSPLogger
 import com.google.devtools.ksp.processing.Resolver
@@ -11,7 +11,7 @@ import com.google.devtools.ksp.symbol.ClassKind
 import com.google.devtools.ksp.symbol.KSAnnotated
 import com.google.devtools.ksp.symbol.KSClassDeclaration
 import com.google.devtools.ksp.validate
-import com.devpub.symbol_processor.logAndThrowError
+import com.github.henryJung.symbol_processor.logAndThrowError
 
 class MapperSymbolProcessor(
     private val codeGenerator: CodeGenerator,

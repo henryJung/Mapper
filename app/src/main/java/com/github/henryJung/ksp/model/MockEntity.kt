@@ -1,8 +1,8 @@
-package com.devpub.ksp.model
+package com.github.henryJung.ksp.model
 
 import com.devpub.annotation.Mapper
 import com.devpub.annotation.MapperProperty
-import com.devpub.ksp.TestModel
+import com.github.henryJung.ksp.TestModel
 
 @Mapper(TestModel::class)
 data class MockEntity(

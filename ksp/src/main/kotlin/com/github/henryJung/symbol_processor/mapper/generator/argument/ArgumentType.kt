@@ -1,4 +1,4 @@
-package com.devpub.symbol_processor.mapper.generator.argument
+package com.github.henryJung.symbol_processor.mapper.generator.argument
 
 import com.google.devtools.ksp.symbol.KSType
 

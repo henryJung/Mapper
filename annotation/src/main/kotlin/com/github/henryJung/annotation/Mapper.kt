@@ -1,4 +1,4 @@
-package com.devpub.annotation
+package com.github.henryJung.annotation
 
 import kotlin.reflect.KClass
 

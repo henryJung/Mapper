@@ -1,10 +1,10 @@
-package com.devpub.symbol_processor.mapper
+package com.github.henryJung.symbol_processor.mapper
 
-import com.devpub.annotation.Mapper
-import com.devpub.symbol_processor.className
-import com.devpub.symbol_processor.extractAnnotation
-import com.devpub.symbol_processor.mapper.generator.MappingFunctionGenerator
-import com.devpub.symbol_processor.mapper.generator.PackageImports
+import com.github.henryJung.annotation.Mapper
+import com.github.henryJung.symbol_processor.className
+import com.github.henryJung.symbol_processor.extractAnnotation
+import com.github.henryJung.symbol_processor.mapper.generator.MappingFunctionGenerator
+import com.github.henryJung.symbol_processor.mapper.generator.PackageImports
 import com.google.devtools.ksp.processing.CodeGenerator
 import com.google.devtools.ksp.processing.Dependencies
 import com.google.devtools.ksp.processing.KSPLogger
