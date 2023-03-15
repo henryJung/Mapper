@@ -32,10 +32,8 @@ android {
 }
 
 dependencies {
-    implementation project(':annotation')
-    ksp(project(':ksp'))
-//    implementation 'com.github.henryJung.mapper:annotation:1.0-alpha3'
-//    ksp ksp('com.github.henryJung:mapper:ksp:1.0-alpha2')
+    implementation 'com.github.henryJung.mapper:annotation:1.0'
+    ksp 'com.github.henryJung.mapper:ksp:1.0'
 
     implementation 'androidx.core:core-ktx:1.9.0'
     implementation 'androidx.appcompat:appcompat:1.6.1'
