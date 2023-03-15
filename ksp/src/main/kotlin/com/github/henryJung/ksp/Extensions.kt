@@ -1,4 +1,4 @@
-package com.github.henryJung.symbol_processor
+package com.github.henryJung.ksp
 
 import com.google.devtools.ksp.processing.KSPLogger
 import com.google.devtools.ksp.processing.Resolver

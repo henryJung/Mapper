@@ -1,4 +1,4 @@
-package com.github.henryJung.symbol_processor.mapper.generator.argument
+package com.github.henryJung.ksp.processing.generator.argument
 
 data class MatchingArgument(
     val targetClassPropertyName: String,

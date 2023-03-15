@@ -1,4 +1,4 @@
-package com.github.henryJung.symbol_processor.mapper
+package com.github.henryJung.ksp.processing
 
 import com.google.devtools.ksp.processing.SymbolProcessor
 import com.google.devtools.ksp.processing.SymbolProcessorEnvironment

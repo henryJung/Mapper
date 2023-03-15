@@ -1,14 +1,12 @@
-package com.github.henryJung.symbol_processor.mapper.generator
+package com.github.henryJung.ksp.processing.generator
 
 import com.github.henryJung.annotation.MapperProperty
-import com.devpub.symbol_processor.*
-import com.github.henryJung.symbol_processor.*
+import com.github.henryJung.ksp.*
+import com.github.henryJung.ksp.processing.generator.argument.ArgumentType
+import com.github.henryJung.ksp.processing.generator.argument.MatchingArgument
 import com.google.devtools.ksp.processing.KSPLogger
 import com.google.devtools.ksp.processing.Resolver
 import com.google.devtools.ksp.symbol.*
-import com.github.henryJung.symbol_processor.mapper.generator.argument.ArgumentType
-import com.github.henryJung.symbol_processor.mapper.generator.argument.MatchingArgument
-import com.henryJung.symbol_processor.*
 import kotlin.text.StringBuilder
 
 class MappingFunctionGenerator(

@@ -1,8 +1,8 @@
-package com.github.henryJung.symbol_processor.mapper.generator
+package com.github.henryJung.ksp.processing.generator
 
 import com.google.devtools.ksp.symbol.KSType
 import com.google.devtools.ksp.symbol.KSTypeParameter
-import com.github.henryJung.symbol_processor.getName
+import com.github.henryJung.ksp.getName
 import java.lang.StringBuilder
 
 class PackageImports(var targetClassTypeParameters: Set<KSTypeParameter> = mutableSetOf()) {
